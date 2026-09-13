@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himmel Haus — German Bavarian Restaurant &amp; Bierhaus in South Lake Tahoe, CA</title>
+<meta name="description" content="Himmel Haus is a German Bavarian restaurant and bierhaus in South Lake Tahoe, CA — Bavarian-inspired food with a California twist, six rotating draft taps, and 60+ German and Belgian biers.">
+<link rel="canonical" href="https://www.himmelhausslt.com/">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:site_name" content="Himmel Haus">
+<meta property="og:title" content="Himmel Haus — German Bavarian Restaurant &amp; Bierhaus in South Lake Tahoe, CA">
+<meta property="og:description" content="Bavarian-inspired food with a California twist, six rotating draft taps, and 60+ German and Belgian biers. Saddle Road, South Lake Tahoe.">
+<meta property="og:image" content="https://www.himmelhausslt.com/images/hero-sign.webp">
+<meta property="og:url" content="https://www.himmelhausslt.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Himmel Haus — German Bavarian Restaurant &amp; Bierhaus in South Lake Tahoe, CA">
+<meta name="twitter:description" content="Bavarian-inspired food with a California twist, six rotating draft taps, and 60+ German and Belgian biers. Saddle Road, South Lake Tahoe.">
+<meta name="twitter:image" content="https://www.himmelhausslt.com/images/hero-sign.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Playfair+Display+SC:wght@400;700&family=Karla:wght@300;400;500;600;700&display=swap">
+
+<style>
+/* ============================================================
+   HIMMEL HAUS
+   Single theme by intent — a bierhaus at night has no light mode.
+   Verified contrast: bone/ground 16.27 · muted/ground 8.50
+   faint/card 5.55 · amber/ground 6.61 · ink/amber 6.61
+   Never bone-on-amber (2.46). Never blau-fill as text (4.24).
+   ============================================================ */
+:root{
+  --ground:#14100D; --card:#1F1813; --elev:#2A211A;
+  --line:#3A2E24; --line-soft:#2C231B;
+  --bone:#F4EDE2; --muted:#B9AC9B; --faint:#9C8F80;
+  --amber:#D08A1E; --amber-hi:#E8A63A; --amber-dim:#8A5D16; --ink:#14100D;
+  --blau:#6199CE; --open:#5FA871; --closed:#E5544B;
+
+  --font-display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --font-label:"Playfair Display SC","Playfair Display",Georgia,serif;
+  --font-body:"Karla","Helvetica Neue",Arial,sans-serif;
+
+  --fs-hero:clamp(2.5rem,6.4vw,5rem);
+  --fs-h2:clamp(1.85rem,3.7vw,2.9rem);
+  --fs-h3:clamp(1.2rem,1.9vw,1.55rem);
+  --fs-body:1.0625rem; --fs-small:.9375rem; --fs-micro:.8125rem;
+
+  --s1:8px; --s2:16px; --s3:24px; --s4:40px; --s5:64px; --s6:96px;
+  --wrap:1180px; --radius:2px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;background:var(--ground);color:var(--bone);
+  font-family:var(--font-body);font-size:var(--fs-body);line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img,svg{max-width:100%;display:block}
+a{color:var(--amber-hi);text-underline-offset:3px}
+a:hover{color:var(--bone)}
+:focus-visible{outline:2px solid var(--amber-hi);outline-offset:3px;border-radius:var(--radius)}
+
+.skip{position:absolute;left:var(--s2);top:-100px;z-index:300;background:var(--amber);
+  color:var(--ink);padding:12px 20px;font-weight:700;border-radius:var(--radius);transition:top .2s var(--ease)}
+.skip:focus{top:var(--s2)}
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--s3)}
+
+/* type */
+.label{font-family:var(--font-label);font-size:var(--fs-micro);letter-spacing:.22em;
+  color:var(--amber);margin:0;text-transform:uppercase}
+.h2{font-family:var(--font-display);font-size:var(--fs-h2);font-weight:500;line-height:1.12;
+  letter-spacing:-.015em;margin:var(--s2) 0 0;text-wrap:balance}
+.lede{color:var(--muted);max-width:60ch;margin:var(--s3) 0 0}
+em.accent{font-style:italic;font-weight:500;border-bottom:1px solid var(--amber);padding-bottom:.06em}
+
+.section{padding-block:var(--s6);position:relative;scroll-margin-top:96px}
+body.has-ribbon .section{scroll-margin-top:calc(96px + var(--ribbon-h,38px))}
+body.has-concept-note .section{scroll-margin-top:calc(96px + var(--concept-h,42px))}
+body.has-concept-note.has-ribbon .section{scroll-margin-top:calc(96px + var(--ribbon-h,38px) + var(--concept-h,42px))}
+.course{scroll-margin-top:132px}
+body.has-ribbon .course{scroll-margin-top:calc(132px + var(--ribbon-h,38px))}
+body.has-concept-note .course{scroll-margin-top:calc(132px + var(--concept-h,42px))}
+body.has-concept-note.has-ribbon .course{scroll-margin-top:calc(132px + var(--ribbon-h,38px) + var(--concept-h,42px))}
+.section-head{margin-bottom:var(--s5)}
+.rule{display:flex;align-items:center;gap:var(--s3)}
+.rule::before,.rule::after{content:"";flex:1;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),transparent)}
+.rule svg{width:30px;height:30px;opacity:.8;flex:none}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;
+  padding:12px 22px;font-family:var(--font-body);font-size:var(--fs-small);font-weight:600;
+  letter-spacing:.03em;text-decoration:none;cursor:pointer;border-radius:var(--radius);
+  border:1px solid transparent;
+  transition:background .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease),transform .2s var(--ease)}
+.btn-primary{background:var(--amber);color:var(--ink)}
+.btn-primary:hover{background:var(--amber-hi);color:var(--ink);transform:translateY(-1px)}
+.btn-ghost{border-color:var(--line);color:var(--bone);background:rgba(20,16,13,.4)}
+.btn-ghost:hover{border-color:var(--amber);color:var(--bone);background:rgba(208,138,30,.1)}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto 0;z-index:100;display:flex;align-items:center;
+  justify-content:space-between;gap:var(--s3);padding:var(--s2) var(--s3);
+  background:transparent;border-bottom:1px solid transparent;
+  transition:background .35s var(--ease),border-color .35s var(--ease)}
+.nav.stuck{background:rgba(20,16,13,.93);backdrop-filter:blur(14px);border-bottom-color:var(--line-soft)}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--bone);min-height:44px}
+.brand svg{width:40px;height:40px;flex:none}
+.brand-name{font-family:var(--font-label);font-size:.9375rem;letter-spacing:.15em;line-height:1;display:block;margin-top:3px}
+.brand-sub{font-size:.5625rem;letter-spacing:.24em;color:var(--faint);margin-top:4px;line-height:1;display:block}
+.nav-links{display:none;gap:var(--s3);align-items:center}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:var(--fs-small);
+  display:inline-flex;align-items:center;min-height:44px;transition:color .2s var(--ease)}
+.nav-links a:hover{color:var(--bone)}
+.nav .btn{padding:10px 18px}
+
+/* event ribbon */
+.ribbon{position:fixed;top:0;left:0;right:0;z-index:110;
+  display:none;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;
+  padding:9px var(--s3);background:var(--amber);color:var(--ink);
+  font-size:var(--fs-micro);letter-spacing:.05em;text-align:center}
+.ribbon.show{display:flex}
+.ribbon b{font-family:var(--font-label);letter-spacing:.14em}
+.ribbon a{color:var(--ink);font-weight:700;text-decoration:underline;
+  display:inline-block;padding:12px 6px;margin:-12px 0}
+.ribbon a:hover{color:var(--ink);opacity:.75}
+body.has-ribbon .nav{top:var(--ribbon-h,38px)}
+body.has-ribbon .menu-nav{top:calc(76px + var(--ribbon-h,38px))}
+
+/* concept-work disclosure note */
+.concept-note{position:fixed;top:0;left:0;right:0;z-index:120;
+  display:none;align-items:center;justify-content:center;gap:var(--s2);flex-wrap:wrap;
+  padding:9px 44px 9px var(--s3);background:var(--amber);color:var(--ink);
+  font-size:var(--fs-micro);letter-spacing:.01em;text-align:center}
+.concept-note.show{display:flex}
+.concept-note a{color:var(--ink);font-weight:700;text-decoration:underline;
+  display:inline-block;padding:12px 6px;margin:-12px 0}
+.concept-note a:hover{color:var(--ink);opacity:.75}
+.concept-note-close{position:absolute;right:6px;top:50%;transform:translateY(-50%);
+  background:none;border:0;color:var(--ink);font-size:var(--fs-body);line-height:1;
+  cursor:pointer;padding:10px;min-width:44px;min-height:44px}
+.concept-note-close:hover{opacity:.7}
+body.has-concept-note .nav{top:var(--concept-h,42px)}
+body.has-concept-note .menu-nav{top:calc(76px + var(--concept-h,42px))}
+body.has-concept-note.has-ribbon .nav{top:calc(var(--ribbon-h,38px) + var(--concept-h,42px))}
+body.has-concept-note.has-ribbon .menu-nav{top:calc(76px + var(--ribbon-h,38px) + var(--concept-h,42px))}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:calc(var(--s6) + 40px) var(--s3) var(--s5);overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(20,16,13,.86) 0%,rgba(20,16,13,.35) 30%,rgba(20,16,13,.55) 62%,var(--ground) 99%),
+    radial-gradient(115% 80% at 30% 78%,rgba(20,16,13,.72),transparent 68%)}
+.hero-inner{position:relative;z-index:2;width:100%;max-width:var(--wrap);margin-inline:auto}
+
+.status{display:inline-flex;align-items:center;gap:10px;padding:7px 16px;margin-bottom:var(--s3);
+  border:1px solid var(--line);border-radius:100px;background:rgba(31,24,19,.78);
+  backdrop-filter:blur(8px);font-size:var(--fs-micro);letter-spacing:.06em;color:var(--muted)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--faint);flex:none}
+.status[data-open="true"] .dot{background:var(--open);box-shadow:0 0 0 3px rgba(95,168,113,.2)}
+.status[data-open="false"] .dot{background:var(--closed)}
+.status b{color:var(--bone);font-weight:600}
+
+.hero-kicker{font-family:var(--font-label);font-size:var(--fs-micro);letter-spacing:.16em;
+  color:var(--amber);margin:0 0 var(--s3);text-wrap:balance}
+@media (min-width:600px){.hero-kicker{letter-spacing:.3em}}
+.hero h1{font-family:var(--font-display);font-size:var(--fs-hero);font-weight:400;
+  line-height:1.03;letter-spacing:-.022em;margin:0;max-width:16ch;text-wrap:balance}
+.hero p.sub{margin:var(--s3) 0 0;max-width:46ch;color:var(--muted);font-size:clamp(1rem,1.4vw,1.1875rem)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s4)}
+.hero-cta .btn{flex:1 1 190px}
+@media (min-width:600px){.hero-cta .btn{flex:0 0 auto}}
+
+/* rating */
+.ratingbar{border-block:1px solid var(--line-soft);background:var(--card)}
+.ratingbar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+  gap:var(--s2) var(--s4);padding-block:var(--s3);font-size:var(--fs-small);
+  color:var(--muted);text-align:center}
+.stars{color:var(--amber);letter-spacing:.12em;font-size:1rem}
+.ratingbar b{color:var(--bone);font-weight:600;font-variant-numeric:tabular-nums}
+.ratingbar .src{font-family:var(--font-label);letter-spacing:.14em;font-size:var(--fs-micro);color:var(--faint)}
+
+/* events */
+.events{display:grid;gap:var(--s3);grid-template-columns:1fr}
+.event{border:1px solid var(--line-soft);border-radius:var(--radius);background:var(--card);
+  padding:var(--s4);display:flex;flex-direction:column;gap:var(--s2);position:relative;overflow:hidden}
+.event[data-state="on-now"]{border-color:var(--amber);background:linear-gradient(160deg,rgba(208,138,30,.09),var(--card) 55%)}
+.event[data-state="soon"]{border-color:var(--amber-dim)}
+.event-flag{position:absolute;top:0;right:0;padding:6px 14px;background:var(--amber);color:var(--ink);
+  font-family:var(--font-label);font-size:.6875rem;letter-spacing:.14em;border-bottom-left-radius:var(--radius)}
+.event-when{font-family:var(--font-label);font-size:var(--fs-micro);letter-spacing:.15em;color:var(--amber)}
+.event[data-state="soon"] .event-when,
+.event[data-state="on-now"] .event-when{padding-right:92px}
+.event h3{font-family:var(--font-display);font-size:var(--fs-h3);font-weight:500;margin:0;color:var(--bone)}
+.event p{margin:0;color:var(--muted);font-size:var(--fs-small)}
+.countdown{display:flex;align-items:baseline;gap:11px;margin-top:auto;padding-top:var(--s2)}
+.countdown b{font-family:var(--font-display);font-size:2rem;font-weight:500;color:var(--amber);
+  line-height:1;font-variant-numeric:tabular-nums}
+.countdown span{font-size:var(--fs-micro);color:var(--faint);letter-spacing:.07em}
+.provisional{font-size:.6875rem;color:var(--faint);font-style:italic}
+
+/* menu */
+.menu-nav{position:sticky;top:76px;z-index:40;display:flex;gap:6px;overflow-x:auto;
+  padding:10px 0;margin-bottom:var(--s5);border-bottom:1px solid var(--line-soft);
+  background:rgba(20,16,13,.95);backdrop-filter:blur(12px);scrollbar-width:none}
+.menu-nav::-webkit-scrollbar{display:none}
+.menu-nav a{flex:none;padding:11px 16px;min-height:44px;display:inline-flex;align-items:center;
+  font-family:var(--font-label);font-size:var(--fs-micro);letter-spacing:.14em;color:var(--muted);
+  text-decoration:none;border:1px solid transparent;border-radius:100px;white-space:nowrap;
+  transition:color .2s var(--ease),border-color .2s var(--ease),background .2s var(--ease)}
+.menu-nav a:hover,.menu-nav a[aria-current="true"]{color:var(--bone);border-color:var(--line);background:var(--card)}
+
+.signature{display:grid;gap:var(--s4);margin-bottom:var(--s6);align-items:center}
+.signature figure{margin:0;border:1px solid var(--line-soft);border-radius:var(--radius);overflow:hidden}
+.signature img{width:100%;height:auto}
+
+.course{margin-bottom:var(--s6)}
+.course:last-child{margin-bottom:0}
+.course-head{display:flex;align-items:baseline;gap:var(--s3);margin-bottom:var(--s2);flex-wrap:wrap}
+.course-head h3{font-family:var(--font-label);font-size:clamp(1.1rem,2vw,1.4rem);font-weight:400;
+  letter-spacing:.14em;margin:0;color:var(--bone)}
+.course-head .en{font-size:var(--fs-micro);letter-spacing:.18em;color:var(--faint);text-transform:uppercase}
+.course-note{color:var(--muted);font-size:var(--fs-small);margin:0 0 var(--s4);max-width:62ch}
+
+.dishes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:var(--s4)}
+.dish{display:flex;flex-direction:column;gap:8px}
+.dish-head{display:flex;align-items:baseline;gap:12px}
+.dish-name{font-family:var(--font-display);font-size:var(--fs-h3);font-weight:500;margin:0;
+  line-height:1.2;color:var(--bone)}
+.leader{flex:1;min-width:20px;border-bottom:1px dotted var(--line);transform:translateY(-4px)}
+.dish-price{font-size:1.0625rem;font-weight:600;color:var(--amber);
+  font-variant-numeric:tabular-nums;flex:none}
+.dish-desc{margin:0;color:var(--muted);font-size:var(--fs-small);max-width:64ch}
+.chips{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:2px 0 0;padding:0}
+.chip{display:inline-flex;align-items:center;padding:3px 10px;border:1px solid var(--line);
+  border-radius:100px;font-size:.75rem;letter-spacing:.04em;color:var(--faint)}
+.chip-limited{border-color:var(--amber-dim);color:var(--amber)}
+.chip-add{border-style:dashed}
+
+/* bier */
+.bier-grid{display:grid;gap:var(--s5)}
+.taps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.tap{display:flex;align-items:baseline;gap:12px;padding:var(--s3) 0;border-bottom:1px solid var(--line-soft)}
+.tap:first-child{border-top:1px solid var(--line-soft)}
+.tap-main{display:flex;flex-direction:column;gap:3px;flex:none;max-width:72%}
+.tap-name{font-family:var(--font-display);font-size:1.125rem;font-weight:500;margin:0;
+  color:var(--bone);line-height:1.25}
+.tap-style{font-size:var(--fs-micro);color:var(--faint);letter-spacing:.05em}
+.tap-abv{font-size:var(--fs-small);color:var(--amber);font-variant-numeric:tabular-nums;
+  flex:none;font-weight:600}
+.bier-facts{display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  margin-top:var(--s5);padding-top:var(--s4);border-top:1px solid var(--line-soft)}
+.fact-n{font-family:var(--font-display);font-size:clamp(1.7rem,3.2vw,2.4rem);font-weight:500;
+  color:var(--amber);line-height:1;font-variant-numeric:tabular-nums}
+.fact-l{font-size:var(--fs-micro);color:var(--muted);letter-spacing:.05em;margin-top:8px}
+
+/* figures / gallery */
+figure.shot{margin:0;border:1px solid var(--line-soft);border-radius:var(--radius);
+  overflow:hidden;background:var(--card)}
+figure.shot img{width:100%;height:100%;object-fit:cover}
+figcaption.cap{padding:12px var(--s2);font-family:var(--font-label);font-size:.6875rem;
+  letter-spacing:.15em;color:var(--faint);border-top:1px solid var(--line-soft)}
+
+.gallery{display:grid;gap:var(--s2);grid-template-columns:repeat(2,1fr)}
+.gallery figure{overflow:hidden}
+.gallery figure img{aspect-ratio:1/1;width:100%}
+.gallery figure:nth-child(1){grid-column:1/-1}
+.gallery figure:nth-child(1) img{aspect-ratio:16/9}
+
+/* about */
+.about-grid{display:grid;gap:var(--s5)}
+blockquote.vision{margin:var(--s4) 0 0;padding:var(--s3) 0 var(--s3) var(--s3);
+  border-left:2px solid var(--amber);font-family:var(--font-display);
+  font-size:clamp(1.1rem,2vw,1.45rem);font-style:italic;font-weight:400;line-height:1.45;color:var(--bone)}
+
+/* quotes */
+.quotes{display:grid;gap:var(--s3);grid-template-columns:1fr}
+.quote{border:1px solid var(--line-soft);border-radius:var(--radius);background:var(--card);
+  padding:var(--s4);display:flex;flex-direction:column;gap:var(--s3)}
+.quote-mark{font-family:var(--font-display);font-size:2.5rem;color:var(--amber-dim);line-height:.6;height:20px}
+.quote blockquote{margin:0}
+.quote p{margin:0;font-family:var(--font-display);font-size:clamp(1.05rem,1.7vw,1.25rem);
+  font-style:italic;line-height:1.45;color:var(--bone)}
+.quote cite{font-style:normal;font-family:var(--font-label);font-size:var(--fs-micro);
+  letter-spacing:.14em;color:var(--muted);margin-top:auto}
+
+/* visit */
+.visit-grid{display:grid;gap:var(--s5)}
+.hours{width:100%;border-collapse:collapse;font-size:var(--fs-small)}
+.hours caption{text-align:left;margin-bottom:var(--s2)}
+.hours th{text-align:left;font-family:var(--font-label);font-weight:400;font-size:var(--fs-micro);
+  letter-spacing:.16em;color:var(--faint);padding:0 0 12px;border-bottom:1px solid var(--line-soft)}
+.hours td{padding:14px 0;border-bottom:1px solid var(--line-soft);color:var(--muted);
+  font-variant-numeric:tabular-nums}
+.hours td:last-child{text-align:right}
+.hours tr[data-today="true"] td{color:var(--bone);font-weight:600}
+.hours tr[data-today="true"] td:first-child::before{content:"";display:inline-block;width:5px;height:5px;
+  border-radius:50%;background:var(--amber);margin-right:9px;vertical-align:middle}
+.seasonal{margin-top:var(--s3);padding:12px 14px;border:1px solid var(--amber-dim);
+  border-radius:var(--radius);background:rgba(208,138,30,.07);font-size:var(--fs-micro);color:var(--muted)}
+.addr{font-style:normal;color:var(--muted);font-size:var(--fs-small);line-height:1.9}
+.addr strong{color:var(--bone);font-weight:600;display:block;font-size:var(--fs-body)}
+.map{position:relative;border:1px solid var(--line-soft);border-radius:var(--radius);
+  overflow:hidden;background:var(--card);aspect-ratio:4/3}
+.map svg{width:100%;height:100%}
+.map-note a{display:inline-block;padding:12px 6px;margin:-12px 0}
+.map-note{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:var(--s2);
+  background:linear-gradient(180deg,transparent,rgba(20,16,13,.92));font-size:var(--fs-micro);
+  color:var(--muted);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+
+/* footer */
+.foot{border-top:1px solid var(--line-soft);background:var(--card);padding-block:var(--s5) var(--s4)}
+.foot-grid{display:grid;gap:var(--s4);margin-bottom:var(--s5);
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.foot h4{font-family:var(--font-label);font-size:var(--fs-micro);letter-spacing:.18em;
+  color:var(--amber);margin:0 0 var(--s2);font-weight:400}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+.foot a{color:var(--muted);text-decoration:none;font-size:var(--fs-small);
+  display:inline-flex;align-items:center;min-height:32px}
+.foot a:hover{color:var(--bone)}
+.foot li span{color:var(--muted);font-size:var(--fs-small)}
+.foot-base{border-top:1px solid var(--line-soft);padding-top:var(--s3);display:flex;flex-wrap:wrap;
+  gap:var(--s2);justify-content:space-between;font-size:var(--fs-micro);color:var(--faint)}
+
+/* mobile bar */
+.mobar{position:fixed;left:0;right:0;bottom:0;z-index:90;display:flex;gap:10px;
+  padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(20,16,13,.97);
+  backdrop-filter:blur(14px);border-top:1px solid var(--line-soft);
+  transform:translateY(115%);transition:transform .35s var(--ease)}
+.mobar.show{transform:translateY(0)}
+.mobar .btn{flex:1}
+
+.reveal{opacity:0;transform:translateY(18px)}
+.reveal.in{opacity:1;transform:none;transition:opacity .6s var(--ease),transform .6s var(--ease)}
+
+@media (min-width:600px){
+  .events,.quotes{grid-template-columns:repeat(2,1fr)}
+  .gallery{grid-template-columns:repeat(3,1fr)}
+  .signature{grid-template-columns:.9fr 1.1fr}
+}
+@media (min-width:900px){
+  .nav{padding-inline:var(--s4)}
+  .nav-links{display:flex}
+  .mobar{display:none}
+  .quotes{grid-template-columns:repeat(3,1fr)}
+  .about-grid{grid-template-columns:1.1fr .9fr;align-items:center}
+  .visit-grid{grid-template-columns:1fr 1fr}
+  .bier-grid{grid-template-columns:1fr 1fr;align-items:start}
+  .events{grid-template-columns:repeat(3,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+  .mobar{transform:translateY(0)}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="concept-note" id="conceptNote">
+  <span>Concept redesign · not affiliated with or endorsed by Zak's Himmel Haus. <a href="https://www.himmelhausslt.com/" target="_blank" rel="noopener">Visit the official site →</a></span>
+  <button type="button" class="concept-note-close" id="conceptNoteClose" aria-label="Dismiss this notice">&times;</button>
+</div>
+
+<div class="ribbon" id="ribbon" role="status"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Himmel Haus, home">
+    <svg viewBox="0 0 64 64" role="img" aria-label="Himmel Haus mark">
+      <path d="M9.5 25.5 C 9.5 20.5, 15 21, 14.5 17 C 14 13.6, 10.8 13.8, 10.6 16.4"
+            fill="none" stroke="#D08A1E" stroke-width="2.1" stroke-linecap="round"/>
+      <path d="M20 55 V29.5 L33 17 L46 29.5 V55 Z" fill="#F4EDE2"/>
+      <path d="M24.5 51 L31 40.5 L34.6 45.6 L38 40 L43 51 Z" fill="#14100D"/>
+      <circle cx="33" cy="27" r="2.6" fill="#14100D"/>
+    </svg>
+    <span>
+      <span class="brand-name">HIMMEL HAUS</span>
+      <span class="brand-sub">SOUTH LAKE TAHOE</span>
+    </span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#events">Events</a>
+    <a href="#menu">Menu</a>
+    <a href="#bier">Bier</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <a class="btn btn-primary" href="https://www.sevenrooms.com/explore/himmelhaus/reservations/create/search/" target="_blank" rel="noopener">Reserve</a>
+</header>
+
+<main id="main"><span id="top"></span>
+
+<section class="hero">
+  <div class="hero-bg">
+    <img src="images/hero-sign.webp" alt="The carved wooden sign for Himmel Haus on Saddle Road, with the patio, picnic tables and the Sierra hillside behind it" width="1200" height="675" fetchpriority="high" decoding="async">
+  </div>
+  <div class="hero-inner">
+    <p class="status" id="status" data-open="false"><span class="dot"></span><span id="status-text">Checking hours…</span></p>
+    <p class="hero-kicker">SADDLE ROAD · SOUTH LAKE TAHOE</p>
+    <h1>A Bavarian bierhaus with a <em class="accent">California accent</em>.</h1>
+    <p class="sub">Sixty-odd German and Belgian biers, six rotating taps, and a pretzel the size of the plate.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="https://www.sevenrooms.com/explore/himmelhaus/reservations/create/search/" target="_blank" rel="noopener">Reserve a table</a>
+      <a class="btn btn-ghost" href="tel:+15303147665">Call (530) 314-7665</a>
+    </div>
+  </div>
+</section>
+
+<div class="ratingbar">
+  <div class="wrap">
+    <span><span class="stars" aria-hidden="true">★★★★★</span> <b>4.5</b> from <b>2,043</b> reviews <span class="src">· YELP</span></span>
+    <span class="src">FEATURED IN THE NEW YORK TIMES</span>
+    <span class="src">THE INFATUATION · TAHOE</span>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<section class="section" id="events">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Veranstaltungen</p>
+      <h2 class="h2">What's on the calendar.</h2>
+      <p class="lede">Trivia every Wednesday, Oktoberfest every autumn, and the room booked out for parties in between.</p>
+    </div>
+    <div class="events reveal" id="events-grid"></div>
+  </div>
+</section>
+
+<div class="wrap"><div class="rule" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true">
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#3A2E24" stroke-width="1.5"/>
+  <path d="M22 46 V30 L32 21 L42 30 V46 Z" fill="#D08A1E"/>
+  <path d="M26 43 L31 35 L33.8 39 L36.4 34.6 L40 43 Z" fill="#14100D"/>
+</svg></div></div>
+
+<!-- MENU -->
+<section class="section" id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Die Speisekarte</p>
+      <h2 class="h2">Bavarian food, cooked the long way.</h2>
+      <p class="lede">Sauerbraten marinates a minimum of seven days. The spätzle is made in the haus. Everything below is on tonight unless it's marked limited.</p>
+    </div>
+
+    <div class="signature reveal">
+      <figure class="shot">
+        <img src="images/pretzel.webp" alt="The signature Bavarian pretzel, larger than the plate it sits on, with ramekins of three-cheese mustard fondue and bacon-onion jam" width="765" height="1020" loading="lazy" decoding="async">
+      </figure>
+      <div>
+        <p class="label">Das Wahrzeichen · The signature</p>
+        <h3 class="h2" style="font-size:clamp(1.5rem,2.8vw,2.1rem)">The pretzel is the reason people bring visitors here.</h3>
+        <p class="lede">Sea salt, a crock of haus-made three-cheese mustard fondue, and bacon-onion jam. The Infatuation called it out by name. It is not a small pretzel.</p>
+        <p style="margin-top:var(--s3)"><span class="dish-price" style="font-size:1.35rem">$14</span> <span style="color:var(--faint);font-size:var(--fs-micro);letter-spacing:.1em">· LARGE OR MINI · VEGETARIAN</span></p>
+      </div>
+    </div>
+
+    <nav class="menu-nav" aria-label="Menu sections">
+      <a href="#vorspeisen">VORSPEISEN</a>
+      <a href="#wurst">WURST</a>
+      <a href="#hauptgericht">HAUPTGERICHT</a>
+      <a href="#kindermenu">KINDERMENÜ</a>
+      <a href="#bier">BIER &amp; WEIN</a>
+    </nav>
+
+    <div class="course reveal" id="vorspeisen">
+      <div class="course-head"><h3>Vorspeisen</h3><span class="en">Starters</span></div>
+      <ul class="dishes">
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Bavarian Pretzel</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$14</span></div>
+          <p class="dish-desc">Large or mini pretzel, served with haus-made three-cheese mustard fondue and bacon-onion jam.</p>
+          <ul class="chips"><li class="chip">Vegetarian</li><li class="chip chip-limited">Signature</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Belgian Frites</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$9</span></div>
+          <p class="dish-desc">Fresh cut, twice fried potatoes. Served with our haus-made curry ketchup and roasted garlic aioli.</p>
+          <ul class="chips"><li class="chip">Gluten-free</li><li class="chip">Vegetarian</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Roasted Cauliflower</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$10</span></div>
+          <p class="dish-desc">Oven roasted cauliflower in curry béchamel, topped with green onions. Not vegetarian.</p>
+          <ul class="chips"><li class="chip chip-add">Add bacon $4</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Brussels Sprouts</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$9</span></div>
+          <p class="dish-desc">Halved and sautéed in butter with salt and pepper, served with lemon.</p>
+          <ul class="chips"><li class="chip">Gluten-free</li><li class="chip">Vegetarian</li><li class="chip chip-add">Add bacon $4</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Haus Salad</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$16</span></div>
+          <p class="dish-desc">Organic greens tossed in our haus vinaigrette, topped with almonds, golden raisins, julienned apples, and bleu cheese.</p>
+          <ul class="chips"><li class="chip">Gluten-free</li><li class="chip">Vegetarian</li><li class="chip chip-add">Add chicken $9</li><li class="chip chip-add">Add schnitzel $12</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Warm Spinach Salad</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$16</span></div>
+          <p class="dish-desc">Spinach tossed with sautéed mushrooms and onions in our haus-made bacon-mustard vinaigrette. Served with pickled egg and shallots.</p>
+          <ul class="chips"><li class="chip">Gluten-free</li><li class="chip chip-add">Add chicken $9</li><li class="chip chip-add">Add schnitzel $12</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Pickled Beet Salad</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$15</span></div>
+          <p class="dish-desc">Red wine pickled beets, arugula, feta, mint, and toasted pine nuts with a honey lemon vinaigrette.</p>
+          <ul class="chips"><li class="chip">Gluten-free</li><li class="chip">Vegetarian</li><li class="chip chip-add">Add chicken $9</li><li class="chip chip-add">Add schnitzel $12</li></ul></li>
+      </ul>
+    </div>
+
+    <div class="course reveal" id="wurst">
+      <div class="course-head"><h3>Wurst</h3><span class="en">Sausage</span></div>
+      <p class="course-note">Choose your sausage on any plate: <strong>Bratwurst</strong> (seasoned pork), <strong>Bockwurst</strong> (veal &amp; garlic), or <strong>Kielbasa</strong> (spiced beef and pork).</p>
+      <div class="signature" style="margin-bottom:var(--s5)">
+        <figure class="shot">
+          <img src="images/sausage-platter.webp" alt="The sausage platter: four grilled sausages on a white plate with sauerkraut, red cabbage, mashed potatoes and a haus-made pickle" width="1200" height="900" loading="lazy" decoding="async">
+        </figure>
+        <div>
+          <p class="label">Sausage Platter · $33</p>
+          <p class="lede">Four sausages, mashed potatoes, sauerkraut, rotkohl, and haus-made pickles. Built for two, ordered by one often enough.</p>
+        </div>
+      </div>
+      <ul class="dishes">
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Sausage Plate</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$15</span></div>
+          <p class="dish-desc">Choice of sausage, served with mashed potatoes, sauerkraut, and our haus-made pickles.</p></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Curry Wurst</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$16</span></div>
+          <p class="dish-desc">Choice of sausage smothered in haus-made curry ketchup. Served with haus salad and frites.</p></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Sausage Platter</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$33</span></div>
+          <p class="dish-desc">A selection of four sausages, served with mashed potatoes, sauerkraut, rotkohl, and haus-made pickles.</p>
+          <ul class="chips"><li class="chip">Feeds two</li></ul></li>
+      </ul>
+    </div>
+
+    <div class="course reveal" id="hauptgericht">
+      <div class="course-head"><h3>Hauptgericht</h3><span class="en">Mains</span></div>
+      <ul class="dishes">
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Schnitzel</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$28</span></div>
+          <p class="dish-desc">Choice of protein, served with rotkohl and mashed potatoes. Smothered in Jäger sauce on request.</p>
+          <ul class="chips"><li class="chip">Chicken</li><li class="chip chip-add">Pork +$2</li><li class="chip chip-add">Veal +$4</li><li class="chip chip-limited">Limited availability</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Spätzle</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$22</span></div>
+          <p class="dish-desc">Haus-made German pasta sautéed in butter with onions.</p>
+          <ul class="chips"><li class="chip">Vegetarian</li><li class="chip">Half portion</li><li class="chip chip-add">Add bacon $4</li><li class="chip chip-add">Add wurst $7</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Käse Spätzle</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$23</span></div>
+          <p class="dish-desc">Smoked gouda, imported swiss, and aged white cheddar cheese spätzle topped with pretzel bread crumbs.</p>
+          <ul class="chips"><li class="chip">Vegetarian</li><li class="chip">Half portion</li><li class="chip chip-add">Add bacon $4</li><li class="chip chip-add">Add wurst $7</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Pork Roast</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$33</span></div>
+          <p class="dish-desc">Slow roasted brown sugar pork and fresh herbed gravy served with garlic green beans and mashed potatoes.</p></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Sauerbraten</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$36</span></div>
+          <p class="dish-desc">Beef shoulder marinated in red wine and herbs for a minimum of seven days. Slowly braised, topped with sweet and sauer pan sauce, served with garlic green beans and mashed potatoes.</p>
+          <ul class="chips"><li class="chip chip-limited">Limited availability</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Schweinshaxe</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$38</span></div>
+          <p class="dish-desc">Kurobuta pork shank, slow braised in Märzen bier with sauerkraut and dijon. Served on a bed of mashed potatoes and rotkohl.</p>
+          <ul class="chips"><li class="chip chip-limited">Limited availability</li></ul></li>
+      </ul>
+    </div>
+
+    <div class="course reveal" id="kindermenu">
+      <div class="course-head"><h3>Kindermenü</h3><span class="en">For kids</span></div>
+      <p class="course-note">Every kids' plate is $9 and comes with fries.</p>
+      <ul class="dishes">
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Chicken Tenders</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$9</span></div></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Grilled Cheese</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$9</span></div>
+          <ul class="chips"><li class="chip">Vegetarian</li></ul></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Brat on a Pretzel Bun</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$9</span></div></li>
+        <li class="dish"><div class="dish-head"><h4 class="dish-name">Kids Käse Spätzle</h4><span class="leader" aria-hidden="true"></span><span class="dish-price">$9</span></div>
+          <ul class="chips"><li class="chip">Vegetarian</li></ul></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="rule" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true">
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#3A2E24" stroke-width="1.5"/>
+  <path d="M22 46 V30 L32 21 L42 30 V46 Z" fill="#D08A1E"/>
+  <path d="M26 43 L31 35 L33.8 39 L36.4 34.6 L40 43 Z" fill="#14100D"/>
+</svg></div></div>
+
+<!-- BIER -->
+<section class="section" id="bier">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Die Bierkarte</p>
+      <h2 class="h2">Six taps that rotate. Sixty bottles that don't.</h2>
+      <p class="lede">Weihenstephan, Ayinger, Schneider, Aecht Schlenkerla. Trappist Chimay, Orval, Westmalle, Rochefort. Sours, lambics, gluten-free, Apfelwein — and German wine by the glass.</p>
+    </div>
+    <div class="bier-grid reveal">
+      <div>
+        <p class="label" style="color:var(--faint);margin-bottom:var(--s2)">ON DRAFT</p>
+        <ul class="taps">
+          <li class="tap"><div class="tap-main"><h4 class="tap-name">Weihenstephan Korbinian</h4><span class="tap-style">Doppelbock · Germany</span></div><span class="leader" aria-hidden="true"></span><span class="tap-abv">7.4%</span></li>
+          <li class="tap"><div class="tap-main"><h4 class="tap-name">Paulaner Oktoberfest</h4><span class="tap-style">Lager · Germany</span></div><span class="leader" aria-hidden="true"></span><span class="tap-abv">6.0%</span></li>
+          <li class="tap"><div class="tap-main"><h4 class="tap-name">Delirium Tremens</h4><span class="tap-style">Belgian Strong Pale · Belgium</span></div><span class="leader" aria-hidden="true"></span><span class="tap-abv">8.5%</span></li>
+          <li class="tap"><div class="tap-main"><h4 class="tap-name">Paulaner Hefeweizen</h4><span class="tap-style">Wheat · Germany</span></div><span class="leader" aria-hidden="true"></span><span class="tap-abv">5.5%</span></li>
+          <li class="tap"><div class="tap-main"><h4 class="tap-name">Erdinger Helles</h4><span class="tap-style">Helles Lager · Germany</span></div><span class="leader" aria-hidden="true"></span><span class="tap-abv">5.1%</span></li>
+          <li class="tap"><div class="tap-main"><h4 class="tap-name">Rotating Märzen</h4><span class="tap-style">Oktoberfest Märzen · Germany</span></div><span class="leader" aria-hidden="true"></span><span class="tap-abv">5.1–6.0%</span></li>
+        </ul>
+        <div class="bier-facts">
+          <div><div class="fact-n">½L</div><div class="fact-l">Half-liter pours, $9–$12</div></div>
+          <div><div class="fact-n">$19</div><div class="fact-l">Flight of all six taps</div></div>
+          <div><div class="fact-n">5L</div><div class="fact-l">Largest table service — the boot</div></div>
+          <div><div class="fact-n">60+</div><div class="fact-l">Bottles: German, Belgian, Trappist, sour, GF</div></div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:var(--s2)">
+        <figure class="shot">
+          <img src="images/tap-wall.webp" alt="Six German beer tap handles at the bar — Spaten, Ayinger Celebrator, Warsteiner, Paulaner and Hofbräu München — lit low behind glassware" width="1000" height="599" loading="lazy" decoding="async">
+          <figcaption class="cap">THE TAP WALL</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images/non-alcoholic.webp" alt="A Weihenstephaner non-alcoholic bottle between a filled Ayinger weissbier glass and a Paulaner glass on a wooden table" width="760" height="1013" loading="lazy" decoding="async">
+          <figcaption class="cap">NON-ALCOHOLIC, TAKEN SERIOUSLY · $7</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Der Bierhaus</p>
+      <h2 class="h2">Dark timber, long tables, a heated patio.</h2>
+      <p class="lede">Reservations are for indoors. The patio is first come, first served — and in summer the lawn and picnic tables open up.</p>
+    </div>
+    <div class="gallery reveal">
+      <figure class="shot"><img src="images/dining-room.webp" alt="The dining room: long communal timber tables, string lights along the beams, and German brewery banners on the walls" width="767" height="575" loading="lazy" decoding="async"></figure>
+      <figure class="shot"><img src="images/pork-roast.webp" alt="Pork roast with herbed gravy, mashed potatoes and garlic green beans, lit by afternoon sun on a wooden table" width="1200" height="800" loading="lazy" decoding="async"></figure>
+      <figure class="shot"><img src="images/sausage-platter.webp" alt="Four grilled sausages with sauerkraut, red cabbage and mashed potatoes" width="1200" height="900" loading="lazy" decoding="async"></figure>
+      <figure class="shot"><img src="images/pretzel.webp" alt="The oversized Bavarian pretzel with fondue and bacon-onion jam" width="765" height="1020" loading="lazy" decoding="async"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="label">Über Uns</p>
+      <h2 class="h2">A German bierhaus in the Sierra.</h2>
+      <p class="lede">Himmel Haus pairs a wide range of German and Belgian biers and wines with a menu of Bavarian-inspired food — built on local dairy, organic produce, and humanely raised meat.</p>
+      <blockquote class="vision">Our vision is to take the customary ideas and theories of German cuisine and give them a contemporary, California twist — while still putting strictly traditional recipes on the table throughout the year.</blockquote>
+    </div>
+    <div class="reveal">
+      <figure class="shot">
+        <img src="images/dining-room.webp" alt="The main dining room at Himmel Haus, communal tables under warm lantern light" width="767" height="575" loading="lazy" decoding="async">
+        <figcaption class="cap">THE ROOM · COMMUNAL TABLES, BLACK FOREST DÉCOR</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- PRESS -->
+<section class="section" id="press">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Im Gespräch</p>
+      <h2 class="h2">What people say.</h2>
+    </div>
+    <div class="quotes reveal">
+      <figure class="quote">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <blockquote><p>Tahoe's cool California vibe comes with a Bavarian accent.</p></blockquote>
+        <cite>THE NEW YORK TIMES · TRAVEL</cite>
+      </figure>
+      <figure class="quote">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <blockquote><p>Giant pretzels covered in sea salt, three-cheese fondue, and bacon-onion jam — and an impressive list of German and Belgian beers.</p></blockquote>
+        <cite>THE INFATUATION · TAHOE</cite>
+      </figure>
+      <figure class="quote">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <blockquote><p>4.5 stars across 2,043 reviews and 2,394 guest photos.</p></blockquote>
+        <cite>YELP · SOUTH LAKE TAHOE</cite>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="section" id="visit">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Besuch Uns</p>
+      <h2 class="h2">Up Saddle Road.</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="reveal">
+        <table class="hours">
+          <caption class="label">HOURS</caption>
+          <thead><tr><th scope="col">Day</th><th scope="col" style="text-align:right">Open</th></tr></thead>
+          <tbody id="hours-body">
+            <tr data-day="1"><td>Monday</td><td>4:00pm – 9:00pm</td></tr>
+            <tr data-day="2"><td>Tuesday</td><td>4:00pm – 9:00pm</td></tr>
+            <tr data-day="3"><td>Wednesday</td><td>4:00pm – 9:00pm</td></tr>
+            <tr data-day="4"><td>Thursday</td><td>4:00pm – 9:00pm</td></tr>
+            <tr data-day="5"><td>Friday</td><td>12:00pm – 10:00pm</td></tr>
+            <tr data-day="6"><td>Saturday</td><td>12:00pm – 10:00pm</td></tr>
+            <tr data-day="0"><td>Sunday</td><td>12:00pm – 9:00pm</td></tr>
+          </tbody>
+        </table>
+        <p class="seasonal">Closed Mondays and Tuesdays, April 13 – May 19.</p>
+        <div style="margin-top:var(--s5)">
+          <p class="label" style="color:var(--faint)">FIND US</p>
+          <address class="addr">
+            <strong>3819 Saddle Road</strong>
+            South Lake Tahoe, CA 96150<br>
+            <a href="tel:+15303147665">(530) 314-7665</a><br>
+            <a href="mailto:himmelbookings@gmail.com">himmelbookings@gmail.com</a>
+          </address>
+          <p style="color:var(--muted);font-size:var(--fs-small);margin-top:var(--s2)">Indoor tables take reservations. The heated patio is first come, first served.</p>
+          <div style="display:flex;gap:var(--s2);flex-wrap:wrap;margin-top:var(--s3)">
+            <a class="btn btn-primary" href="https://www.sevenrooms.com/explore/himmelhaus/reservations/create/search/" target="_blank" rel="noopener">Reserve a table</a>
+            <a class="btn btn-ghost" href="https://maps.google.com/?q=3819+Saddle+Road,+South+Lake+Tahoe,+CA+96150" target="_blank" rel="noopener">Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="map">
+          <svg viewBox="0 0 400 300" role="img" aria-label="Stylised topographic map showing Himmel Haus on Saddle Road, South Lake Tahoe">
+            <rect width="400" height="300" fill="#1F1813"/>
+            <g fill="none" stroke="#2C231B" stroke-width="1">
+              <path d="M-20 250 Q 80 210 160 235 T 420 200"/><path d="M-20 225 Q 80 182 165 208 T 420 172"/>
+              <path d="M-20 200 Q 85 155 170 182 T 420 145"/><path d="M-20 175 Q 90 128 175 156 T 420 118"/>
+              <path d="M-20 150 Q 95 100 180 130 T 420 92"/><path d="M-20 125 Q 100 74 185 104 T 420 66"/>
+              <path d="M-20 100 Q 105 48 190 78 T 420 40"/><path d="M-20 75 Q 110 22 195 52 T 420 14"/>
+            </g>
+            <path d="M0 268 Q 130 250 200 200 T 400 120" fill="none" stroke="#3A2E24" stroke-width="9" stroke-linecap="round"/>
+            <path d="M0 268 Q 130 250 200 200 T 400 120" fill="none" stroke="#D08A1E" stroke-width="1.5" stroke-dasharray="7 9" opacity=".85"/>
+            <text x="52" y="286" fill="#9C8F80" font-family="Karla,sans-serif" font-size="10" letter-spacing="2.5">SADDLE ROAD</text>
+            <g transform="translate(200,200)">
+              <circle r="26" fill="none" stroke="#D08A1E" stroke-width="1" opacity=".3"/>
+              <circle r="16" fill="none" stroke="#D08A1E" stroke-width="1" opacity=".6"/>
+              <circle r="6" fill="#D08A1E"/>
+            </g>
+            <text x="228" y="196" fill="#F4EDE2" font-family="Karla,sans-serif" font-size="12" font-weight="600">Himmel Haus</text>
+            <text x="228" y="212" fill="#9C8F80" font-family="Karla,sans-serif" font-size="10">3819 Saddle Road</text>
+          </svg>
+          <p class="map-note">
+            <span>38.9373° N, 119.9409° W</span>
+            <a href="https://maps.google.com/?q=3819+Saddle+Road,+South+Lake+Tahoe,+CA+96150" target="_blank" rel="noopener">Open in Maps →</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>HIMMEL HAUS</h4>
+        <address class="addr" style="font-size:var(--fs-small)">
+          3819 Saddle Road<br>South Lake Tahoe, CA 96150<br>
+          <a href="tel:+15303147665">(530) 314-7665</a>
+        </address>
+      </div>
+      <div><h4>HOURS</h4><ul>
+        <li><span>Mon–Thu · 4pm – 9pm</span></li>
+        <li><span>Fri–Sat · 12pm – 10pm</span></li>
+        <li><span>Sunday · 12pm – 9pm</span></li>
+      </ul></div>
+      <div><h4>EXPLORE</h4><ul>
+        <li><a href="#events">Events</a></li><li><a href="#menu">Menu</a></li>
+        <li><a href="#bier">Bier &amp; Wein</a></li><li><a href="#visit">Visit</a></li>
+      </ul></div>
+      <div><h4>FOLLOW</h4><ul>
+        <li><a href="https://www.facebook.com/himmelhausslt/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.yelp.com/biz/himmel-haus-south-lake-tahoe-4" target="_blank" rel="noopener">Yelp</a></li>
+        <li><a href="https://www.tripadvisor.com/Restaurant_Review-g1798615-d3452446-Reviews-Himmel_Haus-South_Lake_Tahoe_Lake_Tahoe_California_California.html" target="_blank" rel="noopener">Tripadvisor</a></li>
+      </ul></div>
+    </div>
+    <div class="foot-base">
+      <span>© <span id="yr">2026</span> Himmel Haus · South Lake Tahoe, California</span>
+      <span>Design preview — prices and hours pending owner confirmation</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobar" id="mobar">
+  <a class="btn btn-ghost" href="tel:+15303147665">Call</a>
+  <a class="btn btn-primary" href="https://www.sevenrooms.com/explore/himmelhaus/reservations/create/search/" target="_blank" rel="noopener">Reserve a table</a>
+</div>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Himmel Haus","description":"A German restaurant and bierhaus in South Lake Tahoe featuring German and Belgian biers and wines with a menu of Bavarian-inspired food.","servesCuisine":["German","Bavarian"],"priceRange":"$$","telephone":"+1-530-314-7665","email":"himmelbookings@gmail.com","acceptsReservations":"https://www.sevenrooms.com/explore/himmelhaus/reservations/create/search/","address":{"@type":"PostalAddress","streetAddress":"3819 Saddle Road","addressLocality":"South Lake Tahoe","addressRegion":"CA","postalCode":"96150","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":38.937268,"longitude":-119.940902},"sameAs":["https://www.facebook.com/himmelhausslt/","https://www.yelp.com/biz/himmel-haus-south-lake-tahoe-4"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","reviewCount":"2043"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"16:00","closes":"21:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"12:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"12:00","closes":"21:00"}],"event":[{"@type":"Event","name":"Trivia Night","eventSchedule":{"@type":"Schedule","byDay":"https://schema.org/Wednesday","startTime":"21:00","repeatFrequency":"P1W"},"location":{"@type":"Place","name":"Himmel Haus","address":{"@type":"PostalAddress","streetAddress":"3819 Saddle Road","addressLocality":"South Lake Tahoe","addressRegion":"CA","postalCode":"96150","addressCountry":"US"}},"description":"Teams of up to six. The winning table takes a two-litre boot of draft beer."},{"@type":"Event","name":"Oktoberfest","startDate":"2026-09-18","endDate":"2026-10-04","location":{"@type":"Place","name":"Himmel Haus","address":{"@type":"PostalAddress","streetAddress":"3819 Saddle Road","addressLocality":"South Lake Tahoe","addressRegion":"CA","postalCode":"96150","addressCountry":"US"}},"description":"Extra Oktoberfest taps, live music, drinking games and the Miss Oktoberfest Pageant."}],"hasMenu":{"@type":"Menu","name":"Himmel Haus Menu","hasMenuSection":[{"@type":"MenuSection","name":"Vorspeisen","hasMenuItem":[{"@type":"MenuItem","name":"Bavarian Pretzel","description":"Large or mini pretzel with haus-made three cheese mustard fondue and bacon-onion jam","offers":{"@type":"Offer","price":"14","priceCurrency":"USD"},"suitableForDiet":"https://schema.org/VegetarianDiet"},{"@type":"MenuItem","name":"Belgian Frites","description":"Fresh cut, twice fried potatoes with curry ketchup and roasted garlic aioli","offers":{"@type":"Offer","price":"9","priceCurrency":"USD"},"suitableForDiet":["https://schema.org/GlutenFreeDiet","https://schema.org/VegetarianDiet"]},{"@type":"MenuItem","name":"Roasted Cauliflower","description":"Oven roasted cauliflower in curry bechamel topped with green onions","offers":{"@type":"Offer","price":"10","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Brussels Sprouts","description":"Halved and sauteed in butter with salt and pepper, served with lemon","offers":{"@type":"Offer","price":"9","priceCurrency":"USD"},"suitableForDiet":["https://schema.org/GlutenFreeDiet","https://schema.org/VegetarianDiet"]},{"@type":"MenuItem","name":"Haus Salad","description":"Organic greens, almonds, golden raisins, julienned apples and bleu cheese","offers":{"@type":"Offer","price":"16","priceCurrency":"USD"},"suitableForDiet":["https://schema.org/GlutenFreeDiet","https://schema.org/VegetarianDiet"]},{"@type":"MenuItem","name":"Warm Spinach Salad","description":"Spinach, sauteed mushrooms and onions, bacon-mustard vinaigrette, pickled egg and shallots","offers":{"@type":"Offer","price":"16","priceCurrency":"USD"},"suitableForDiet":"https://schema.org/GlutenFreeDiet"},{"@type":"MenuItem","name":"Pickled Beet Salad","description":"Red wine pickled beets, arugula, feta, mint and toasted pine nuts","offers":{"@type":"Offer","price":"15","priceCurrency":"USD"},"suitableForDiet":["https://schema.org/GlutenFreeDiet","https://schema.org/VegetarianDiet"]}]},{"@type":"MenuSection","name":"Wurst","hasMenuItem":[{"@type":"MenuItem","name":"Sausage Plate","description":"Choice of sausage with mashed potatoes, sauerkraut and haus-made pickles","offers":{"@type":"Offer","price":"15","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Curry Wurst","description":"Choice of sausage in haus-made curry ketchup with haus salad and frites","offers":{"@type":"Offer","price":"16","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Sausage Platter","description":"Four sausages with mashed potatoes, sauerkraut, rotkohl and haus-made pickles","offers":{"@type":"Offer","price":"33","priceCurrency":"USD"}}]},{"@type":"MenuSection","name":"Hauptgericht","hasMenuItem":[{"@type":"MenuItem","name":"Schnitzel","description":"Choice of protein with rotkohl and mashed potatoes, Jager sauce on request","offers":{"@type":"Offer","price":"28","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Spatzle","description":"Haus-made German pasta sauteed in butter with onions","offers":{"@type":"Offer","price":"22","priceCurrency":"USD"},"suitableForDiet":"https://schema.org/VegetarianDiet"},{"@type":"MenuItem","name":"Kase Spatzle","description":"Smoked gouda, imported swiss and aged white cheddar spatzle with pretzel bread crumbs","offers":{"@type":"Offer","price":"23","priceCurrency":"USD"},"suitableForDiet":"https://schema.org/VegetarianDiet"},{"@type":"MenuItem","name":"Pork Roast","description":"Slow roasted brown sugar pork with herbed gravy, garlic green beans and mashed potatoes","offers":{"@type":"Offer","price":"33","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Sauerbraten","description":"Beef shoulder marinated in red wine and herbs a minimum of seven days, slowly braised","offers":{"@type":"Offer","price":"36","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Schweinshaxe","description":"Kurobuta pork shank slow braised in Marzen bier with sauerkraut and dijon","offers":{"@type":"Offer","price":"38","priceCurrency":"USD"}}]},{"@type":"MenuSection","name":"Kindermenu","hasMenuItem":[{"@type":"MenuItem","name":"Chicken Tenders with Fries","offers":{"@type":"Offer","price":"9","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Grilled Cheese with Fries","offers":{"@type":"Offer","price":"9","priceCurrency":"USD"},"suitableForDiet":"https://schema.org/VegetarianDiet"},{"@type":"MenuItem","name":"Brat on a Pretzel Bun with Fries","offers":{"@type":"Offer","price":"9","priceCurrency":"USD"}},{"@type":"MenuItem","name":"Kids Kase Spatzle","offers":{"@type":"Offer","price":"9","priceCurrency":"USD"},"suitableForDiet":"https://schema.org/VegetarianDiet"}]}]}}</script>
+
+<script>
+(function(){
+"use strict";
+var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+document.getElementById("yr").textContent = new Date().getFullYear();
+
+/* ============================================================
+   EVENTS — the only block the owner edits.
+   Dated events promote themselves, run, then retire.
+   `annual:true` rolls the dates to next year automatically.
+   ============================================================ */
+var EVENTS = [
+  {
+    id:"oktoberfest",
+    name:"Oktoberfest",
+    from:"09-18", to:"10-04", annual:true,
+    promoteDaysBefore:45, hero:true, datesProvisional:true,
+    when:"MID-SEPT → EARLY OCTOBER",
+    blurb:"Extra Oktoberfest taps, live music, drinking games, and the Miss Oktoberfest Pageant. It packs the indoor rooms and the patio both."
+  },
+  {
+    id:"trivia",
+    name:"Trivia Night",
+    weekly:3, time:"21:00",
+    when:"EVERY WEDNESDAY · 9PM",
+    blurb:"Teams of up to six. The winning table walks out with a two-liter boot of draft beer."
+  },
+  {
+    id:"parties",
+    name:"Private Parties",
+    when:"BY ARRANGEMENT",
+    blurb:"The rooms book out for groups. Call the haus or email us with your date and headcount.",
+    cta:{label:"Email the haus", href:"mailto:himmelbookings@gmail.com?subject=Private%20party%20enquiry"}
+  }
+];
+
+/* ---------- Tahoe local time ---------- */
+function tahoeParts(){
+  var p = new Intl.DateTimeFormat("en-US",{timeZone:"America/Los_Angeles",
+    weekday:"short",year:"numeric",month:"2-digit",day:"2-digit",hour:"numeric",minute:"numeric",hour12:false
+  }).formatToParts(new Date());
+  var o={}; p.forEach(function(x){o[x.type]=x.value;});
+  var map={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
+  return {day:map[o.weekday], mins:(parseInt(o.hour,10)%24)*60+parseInt(o.minute,10),
+          y:+o.year, m:+o.month, d:+o.day};
+}
+var NOW = tahoeParts();
+var TODAY = Date.UTC(NOW.y, NOW.m-1, NOW.d);
+
+function md(str, year){ var a=str.split("-"); return Date.UTC(year, +a[0]-1, +a[1]); }
+var DAYNAMES=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function resolve(ev){
+  if(ev.weekly !== undefined){
+    var isToday = NOW.day === ev.weekly;
+    return {state: isToday ? "on-now" : "recurring", days:null,
+            flag: isToday ? "TONIGHT" : null};
+  }
+  if(!ev.from) return {state:"standing", days:null, flag:null};
+  var y = NOW.y, start = md(ev.from, y), end = md(ev.to, y);
+  if(ev.annual && TODAY > end){ y+=1; start = md(ev.from,y); end = md(ev.to,y); }
+  var days = Math.round((start - TODAY)/86400000);
+  if(TODAY >= start && TODAY <= end) return {state:"on-now", days:0, flag:"ON NOW", year:y};
+  if(days > 0 && days <= (ev.promoteDaysBefore||45)) return {state:"soon", days:days, flag:days+" DAYS", year:y};
+  return {state:"upcoming", days:days, flag:null, year:y};
+}
+
+/* ---------- render event cards ---------- */
+var grid = document.getElementById("events-grid");
+var heroEvent = null;
+
+EVENTS.forEach(function(ev){
+  var r = resolve(ev);
+  if(ev.hero && (r.state==="on-now" || r.state==="soon")) heroEvent = {ev:ev, r:r};
+
+  var art = document.createElement("article");
+  art.className = "event";
+  art.setAttribute("data-state", r.state);
+
+  var html = "";
+  if(r.flag) html += '<span class="event-flag">'+r.flag+'</span>';
+  html += '<span class="event-when">'+ev.when+'</span>';
+  html += '<h3>'+ev.name+'</h3>';
+  html += '<p>'+ev.blurb+'</p>';
+
+  if(r.state==="soon"){
+    html += '<div class="countdown"><b>'+r.days+'</b><span>days out'+
+            (ev.datesProvisional ? '<br><span class="provisional">exact dates to be confirmed</span>' : '')+
+            '</span></div>';
+  } else if(r.state==="on-now" && ev.weekly===undefined){
+    html += '<div class="countdown"><b>Now</b><span>running through '+
+            MONTHS[+ev.to.split("-")[0]-1]+' '+(+ev.to.split("-")[1])+'</span></div>';
+  } else if(r.state==="on-now"){
+    html += '<div class="countdown"><b>Tonight</b><span>from '+
+            (parseInt(ev.time,10)%12||12)+'pm</span></div>';
+  }
+  if(ev.cta){
+    html += '<p style="margin-top:var(--s2)"><a href="'+ev.cta.href+'">'+ev.cta.label+' →</a></p>';
+  }
+  art.innerHTML = html;
+  grid.appendChild(art);
+});
+
+/* ---------- concept-work note ---------- */
+(function(){
+  var note = document.getElementById("conceptNote");
+  if(!note) return;
+  var dismissed = false;
+  try{ dismissed = localStorage.getItem("hh-concept-dismissed") === "1"; }catch(e){}
+  if(dismissed) return;
+  note.classList.add("show");
+  document.body.classList.add("has-concept-note");
+  var setNoteH = function(){ document.body.style.setProperty("--concept-h", note.offsetHeight+"px"); };
+  setNoteH();
+  window.addEventListener("resize", setNoteH);
+  var closeBtn = document.getElementById("conceptNoteClose");
+  closeBtn.addEventListener("click", function(){
+    note.classList.remove("show");
+    document.body.classList.remove("has-concept-note");
+    document.body.style.removeProperty("--concept-h");
+    window.removeEventListener("resize", setNoteH);
+    try{ localStorage.setItem("hh-concept-dismissed", "1"); }catch(e){}
+  });
+})();
+
+/* ---------- hero ribbon ---------- */
+var ribbon = document.getElementById("ribbon");
+if(heroEvent){
+  var ev = heroEvent.ev, r = heroEvent.r;
+  var msg = r.state === "on-now"
+    ? "<b>"+ev.name.toUpperCase()+"</b> is on now — extra taps, live music, and the pageant."
+    : "<b>"+ev.name.toUpperCase()+"</b> in "+r.days+" days";
+  ribbon.innerHTML = msg + ' <a href="#events">See what\'s on</a>';
+  ribbon.classList.add("show");
+  document.body.classList.add("has-ribbon");
+  var setH = function(){ document.body.style.setProperty("--ribbon-h", ribbon.offsetHeight+"px"); };
+  setH(); window.addEventListener("resize", setH);
+}
+
+/* ---------- open / closed ---------- */
+var SCHEDULE = {0:{o:720,c:1260},1:{o:960,c:1260},2:{o:960,c:1260},3:{o:960,c:1260},
+                4:{o:960,c:1260},5:{o:720,c:1320},6:{o:720,c:1320}};
+/* Dated closures layered on top of the weekly SCHEDULE — e.g. the spring Mon/Tue closure. */
+var SEASONAL_CLOSURES = [
+  {from:"04-13", to:"05-19", days:[1,2]}
+];
+function fmt(m){var h=Math.floor(m/60),mm=m%60,ap=h>=12?"pm":"am",hh=h%12||12;
+  return hh+(mm?":"+String(mm).padStart(2,"0"):"")+ap;}
+
+function isSeasonallyClosed(y, m, d, day){
+  for(var i=0;i<SEASONAL_CLOSURES.length;i++){
+    var c = SEASONAL_CLOSURES[i];
+    if(c.days.indexOf(day) === -1) continue;
+    var t = Date.UTC(y, m-1, d);
+    if(t >= md(c.from, y) && t <= md(c.to, y)) return true;
+  }
+  return false;
+}
+
+/* Walks forward (skipping seasonally-closed days) to find the next real opening. */
+function nextOpening(now){
+  var date = new Date(Date.UTC(now.y, now.m-1, now.d));
+  for(var i=1;i<=13;i++){
+    date.setUTCDate(date.getUTCDate()+1);
+    var day = date.getUTCDay();
+    if(!isSeasonallyClosed(date.getUTCFullYear(), date.getUTCMonth()+1, date.getUTCDate(), day)){
+      return (i===1 ? "tomorrow" : DAYNAMES[day])+" at "+fmt(SCHEDULE[day].o);
+    }
+  }
+  return "soon";
+}
+
+function renderStatus(){
+  var now = tahoeParts(), t = SCHEDULE[now.day];
+  var el = document.getElementById("status"), txt = document.getElementById("status-text");
+  var closedToday = isSeasonallyClosed(now.y, now.m, now.d, now.day);
+  if(!closedToday && now.mins >= t.o && now.mins < t.c){
+    el.setAttribute("data-open","true");
+    txt.innerHTML = "<b>Open now</b> · until "+fmt(t.c);
+  } else {
+    el.setAttribute("data-open","false");
+    var next = (!closedToday && now.mins < t.o) ? "today at "+fmt(t.o) : nextOpening(now);
+    txt.innerHTML = "<b>Closed</b> · "+(closedToday ? "seasonal closure — " : "")+"opens "+next;
+  }
+  var rows = document.querySelectorAll("#hours-body tr");
+  Array.prototype.forEach.call(rows, function(rw){
+    rw.setAttribute("data-today", String(Number(rw.getAttribute("data-day")) === now.day));
+  });
+}
+renderStatus(); setInterval(renderStatus, 60000);
+
+/* ---------- nav + mobile bar ---------- */
+var nav=document.getElementById("nav"), mobar=document.getElementById("mobar"), ticking=false;
+function onScroll(){
+  if(ticking) return; ticking=true;
+  requestAnimationFrame(function(){
+    var y=window.scrollY;
+    nav.classList.toggle("stuck", y>40);
+    mobar.classList.toggle("show", y>window.innerHeight*0.7);
+    ticking=false;
+  });
+}
+window.addEventListener("scroll", onScroll, {passive:true}); onScroll();
+
+/* ---------- scroll reveal ---------- */
+var revealEls=document.querySelectorAll(".reveal");
+if(reduce || !("IntersectionObserver" in window)){
+  Array.prototype.forEach.call(revealEls,function(el){el.classList.add("in");});
+} else {
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var el=e.target;
+      var i = el.parentElement ? Array.prototype.indexOf.call(el.parentElement.children, el) : 0;
+      el.style.transitionDelay = Math.min(i,5)*60+"ms";
+      el.classList.add("in"); io.unobserve(el);
+    });
+  },{rootMargin:"0px 0px -12% 0px", threshold:0.06});
+  Array.prototype.forEach.call(revealEls,function(el){io.observe(el);});
+}
+
+/* ---------- menu scrollspy ---------- */
+var spy=[];
+Array.prototype.forEach.call(document.querySelectorAll(".menu-nav a"),function(a){
+  var t=document.querySelector(a.getAttribute("href")); if(t) spy.push({link:a,el:t});
+});
+if(spy.length && "IntersectionObserver" in window){
+  var so=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      spy.forEach(function(s){ s.link.setAttribute("aria-current", String(s.el===e.target)); });
+    });
+  },{rootMargin:"-28% 0px -62% 0px"});
+  spy.forEach(function(s){ so.observe(s.el); });
+}
+})();
+</script>
+</body>
+</html>

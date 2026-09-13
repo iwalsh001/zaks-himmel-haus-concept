@@ -1,0 +1,9 @@
+{
+  "name": "zaks-himmel-haus-concept",
+  "private": true,
+  "type": "module",
+  "description": "Static portfolio concept redesign — no framework, no build step.",
+  "dependencies": {
+    "@vercel/functions": "3.9.7"
+  }
+}

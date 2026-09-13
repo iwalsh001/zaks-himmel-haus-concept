@@ -1,0 +1,33 @@
+node_modules
+.env
+.env.*
+.env*
+.DS_Store
+.vercel
+
+# Superseded drafts (see README) — kept locally, not published
+archive/
+
+# Internal tooling / scratch, not part of the deliverable
+.impeccable/
+.agents/
+.claude/
+skills-lock.json
+
+# Raw scrape of the live business's site incl. their GTM ID and
+# Google site-verification token — internal reference only, never public
+core_1.md
+
+# Unused mood-board / reference photos (not referenced by index.html)
+/beer.webp
+/beer2.webp
+/beer3.webp
+/food1.webp
+/food2.webp
+/food3.webp
+/food4.webp
+/inside1.webp
+/sign.webp
+/ref *.webp
+/referance *.webp
+/web ref*.webp
