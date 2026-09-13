@@ -5,5 +5,8 @@
   "description": "Static portfolio concept redesign — no framework, no build step.",
   "dependencies": {
     "@vercel/functions": "3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2"
   }
 }
